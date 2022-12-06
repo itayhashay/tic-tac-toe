@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/main_btn_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/empty"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/empty"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/main_btn_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/empty"
+            android:freezesText="true"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/main_btn_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/main_btn_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/main_turn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src='@drawable/xplay'
+            android:visibility="visible" />
+        <ImageView
+            android:id="@+id/main_win_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src='@drawable/nowin'
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/main_new_game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:visibility="invisible" />
+
+</LinearLayout>
